@@ -1,0 +1,49 @@
+* {
+    font-family: 'liberation sans', sans-serif;
+}
+
+p {
+    color: darkred;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.italic span {
+    font-weight: bold;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+img {
+    display: block;
+    width: 150px;
+    transition: transform .5s;
+}
+
+img:hover {
+    transform: rotateZ(20deg);
+}
+.chat a {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c5c5c5;
+    border-radius: 20px;
+    width: 60px;
+    height: 60px;
+}
+
+.chat a {
+    text-decoration: none;
+    color: fff;
+    font-size: 28px;
+}
+
